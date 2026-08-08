@@ -1,0 +1,23 @@
+{
+  "name": "Depoimento",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "comentario": {
+      "type": "string"
+    },
+    "avaliacao": {
+      "type": "number",
+      "default": 5
+    },
+    "instagram_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome",
+    "comentario"
+  ]
+}

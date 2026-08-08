@@ -1,0 +1,22 @@
+{
+  "name": "Diferencial",
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "icone": {
+      "type": "string"
+    },
+    "ordem": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "titulo"
+  ]
+}

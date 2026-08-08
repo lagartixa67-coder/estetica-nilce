@@ -1,0 +1,36 @@
+{
+  "name": "ClinicaInfo",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "horario": {
+      "type": "string"
+    },
+    "maps_embed_url": {
+      "type": "string"
+    },
+    "descricao_curta": {
+      "type": "string"
+    },
+    "foto_profissional_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome"
+  ]
+}

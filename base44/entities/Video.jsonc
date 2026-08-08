@@ -1,0 +1,25 @@
+{
+  "name": "Video",
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "ordem": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "titulo"
+  ]
+}

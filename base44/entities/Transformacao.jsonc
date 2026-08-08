@@ -1,0 +1,24 @@
+{
+  "name": "Transformacao",
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "foto_antes": {
+      "type": "string"
+    },
+    "foto_depois": {
+      "type": "string"
+    },
+    "cliente_iniciais": {
+      "type": "string"
+    },
+    "servico": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "titulo"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Servico",
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "string",
+      "enum": [
+        "corporal",
+        "facial",
+        "massagem"
+      ]
+    },
+    "icone": {
+      "type": "string"
+    },
+    "ordem": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "titulo",
+    "categoria"
+  ]
+}
