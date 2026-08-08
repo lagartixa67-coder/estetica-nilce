@@ -6,7 +6,7 @@ export const CLINICA = {
   instagram: '@esteticanilcesantos',
   instagram_url: 'https://instagram.com/esteticanilcesantos',
   endereco: 'Rua Bahia, 2791 - Vila Xavier, Araraquara - SP',
-  horario: 'Seg a Sáb — 9h às 19h',
+  horario: 'Segunda a sexta das 09h às 19h, Sábado das 09h às 15h".',
   maps_embed_url: '',
   descricao_curta: 'Cuidando da sua beleza, autoestima e bem-estar.',
   foto_profissional_url: 'https://media.base44.com/images/public/6a73dcfd84bbc1818945b4a2/57030c2a9_image.png',
